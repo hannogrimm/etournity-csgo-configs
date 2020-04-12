@@ -4,12 +4,16 @@
 
 "GameModes_Server.txt" {
 	"gameTypes"{
-		"classic"{
+		"classic" {
+			// classic equals game_type 0
 			"gameModes"{
-				"competitive"{
+				"custom_wingman" {
+					"value"					"4" // Set custom game mode integer for the gamemode (4)
+					// The game mode is now available under  +game_type 0  +game_mode 4
 					"maxplayers"		"5"			
 					"exec" {
-							"exec"					"et_wingman.cfg" 
+							"exec"					"gamemode_competitive2v2.cfg" // Load defaults for Wingman
+							"exec"					"et_wingman.cfg" // Override custom defaults
 					}
 					"mapgroupsMP"	{					
 						"mg_wingman"		""
