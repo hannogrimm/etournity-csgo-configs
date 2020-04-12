@@ -7,13 +7,15 @@
 		"classic" {
 			// classic equals game_type 0
 			"gameModes"{
-				"custom_wingman" {
-					"value"					"4" // Set custom game mode integer for the gamemode (4)
-					// The game mode is now available under  +game_type 0  +game_mode 4
-					"maxplayers"		"5"			
+				"scrimcomp2v2" {
+					"value"					"2" // Gamemode ID of Wingman (scrimcomp2v2)
+					"maxplayers"		"4"			
 					"exec" {
 							"exec"					"gamemode_competitive2v2.cfg" // Load defaults for Wingman
 							"exec"					"et_wingman.cfg" // Override custom defaults
+					}
+					"mapGroupsSP" {
+						"mg_wingman"		""
 					}
 					"mapgroupsMP"	{					
 						"mg_wingman"		""
@@ -29,11 +31,14 @@
 			"name"			"mg_wingman"
 			"maps"
 			{
-				"de_dust"		""
-				"de_nuke"		""
-        "de_overpass" ""
-				"de_train"		""
-				"de_inferno"		""
+				"mg_de_vertigo"		"0"
+				"mg_de_inferno"		"1"
+				"mg_de_overpass"	"2"
+				"mg_de_cbble"		"3"
+				"mg_de_train"		"4"
+				"mg_de_shortnuke"	"5"
+				"mg_de_shortdust"	"6"
+				"mg_gd_rialto"		"7"
 			}
 		}
 	}
