@@ -1,0 +1,36 @@
+// To use this file, rename it to GameModes_Server.txt
+//
+// Values here override the default gamemodes.txt 
+
+"GameModes_Server.txt" {
+	"gameTypes"{
+		"classic"{
+			"gameModes"{
+				"competitive"{
+					"maxplayers"		"5"			
+					"exec" {
+							"exec"					"et_wingman.cfg" 
+					}
+					"mapgroupsMP"	{					
+						"mg_wingman"		""
+					}
+        }
+			}
+		}
+	}
+	"mapgroups"
+	{
+		"mg_wingman"
+		{
+			"name"			"mg_wingman"
+			"maps"
+			{
+				"de_dust"		""
+				"de_nuke"		""
+        "de_overpass" ""
+				"de_train"		""
+				"de_inferno"		""
+			}
+		}
+	}
+}
