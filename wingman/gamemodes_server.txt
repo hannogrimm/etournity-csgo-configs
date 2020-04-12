@@ -38,6 +38,7 @@
 				"de_train"		"4"
 				"de_shortnuke"	"5"
 				"de_shortdust"	"6"
+				"gd_rialto"		"7"
 			}
 		}
 	}
