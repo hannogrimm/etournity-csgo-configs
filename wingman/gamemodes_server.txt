@@ -31,14 +31,13 @@
 			"name"			"mg_wingman"
 			"maps"
 			{
-				"mg_de_vertigo"		"0"
-				"mg_de_inferno"		"1"
-				"mg_de_overpass"	"2"
-				"mg_de_cbble"		"3"
-				"mg_de_train"		"4"
-				"mg_de_shortnuke"	"5"
-				"mg_de_shortdust"	"6"
-				"mg_gd_rialto"		"7"
+				"de_vertigo"		"0"
+				"de_inferno"		"1"
+				"de_overpass"	"2"
+				"de_cbble"		"3"
+				"de_train"		"4"
+				"de_shortnuke"	"5"
+				"de_shortdust"	"6"
 			}
 		}
 	}
