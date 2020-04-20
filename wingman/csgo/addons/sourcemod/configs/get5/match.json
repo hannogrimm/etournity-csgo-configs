@@ -4,7 +4,6 @@
   "players_per_team": 2,
   "min_players_to_ready": 2,
   "min_spectators_to_ready": 0,
-  "skip_veto": true,
   "side_type": "standard",
 
   "maplist": [
