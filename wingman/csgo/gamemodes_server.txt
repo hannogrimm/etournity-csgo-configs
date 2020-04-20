@@ -9,7 +9,7 @@
 			"gameModes"{
 				"scrimcomp2v2" {
 					"value"					"2" // Gamemode ID of Wingman (scrimcomp2v2)
-					"maxplayers"		"4"			
+					"maxplayers"		"5"			
 					"exec" {
 							"exec"					"gamemode_competitive2v2.cfg" // Load defaults for Wingman
 							"exec"					"et_wingman.cfg" // Override custom defaults
