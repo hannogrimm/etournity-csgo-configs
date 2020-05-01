@@ -17,14 +17,14 @@
   ],
 
   "team1": {
-    "name": "Etournity",
-    "tag": "ET",
-    "flag": "DE",
+    "name": "Team 1",
+    "tag": "",
+    "flag": "eu",
     "logo": ""
   },
   "team2": {
-    "name": "The World",
-    "tag": "WRLD",
+    "name": "Team 2",
+    "tag": "",
     "flag": "eu",
     "logo": ""
   },
